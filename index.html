@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio16</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <form id="converter-form">
+            <div class="form-group">
+                <label for="moedaBase">Moeda Base:</label>
+                <select id="moedaBase">
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="BRL">Real (BRL)</option>
+                    <option value="JPY">Yen (JPY)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+                    <option value="CAD">Dólar Canadense (CAD)</option>
+                    <option value="CHF">Franco Suíço (CHF)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="moedaDestino">Moeda Destino:</label>
+                <select id="moedaDestino">
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="BRL">Real (BRL)</option>
+                    <option value="JPY">Yen (JPY)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+                    <option value="CAD">Dólar Canadense (CAD)</option>
+                    <option value="CHF">Franco Suíço (CHF)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="valor">Valor:</label>
+                <input type="number" id="valor" value="100" min="1">
+            </div>
+            <button type="submit">Converter</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+</body>
+</html>
